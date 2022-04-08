@@ -35,7 +35,7 @@ const onSubmit = () => {
           v-model="email"
           class="form-control"
           type="email"
-          placeholder="Email"
+          placeholder="Email : admin@gmail.com"
         />
       </div>
       <div class="mb-3">
@@ -45,7 +45,7 @@ const onSubmit = () => {
           v-model="password"
           class="form-control"
           type="password"
-          placeholder="Password"
+          placeholder="Password : admin"
         />
       </div>
       <button class="btn btn-primary">Login</button>
