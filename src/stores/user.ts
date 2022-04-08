@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 
-export const useTodoStore = defineStore('todo', {
+export const useUserStore = defineStore('user', {
     state: () => ({
         todos: [
             {
